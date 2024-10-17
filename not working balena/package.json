@@ -1,0 +1,19 @@
+{
+    "name": "nfc-testing",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "nfc-pcsc": "^0.8.1"
+    },
+    "devDependencies": {
+      "@types/node": "^14.0.0"
+    }
+  }
+  

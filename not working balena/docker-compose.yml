@@ -1,0 +1,10 @@
+version: '2.1'
+
+services:
+  nfc-testing:
+    image: hearotech/acr122u-nfc-scanner:sha-2a8217d
+    privileged: true  # Required to access USB devices
+    network_mode: "host"  # This allows the container to use the host's network stack, which may be necessary for accessing local hardware devices
+    environment:
+      - UDEV=1  # Enables udev in BalenaOS for device management
+

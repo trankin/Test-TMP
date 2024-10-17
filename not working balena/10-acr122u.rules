@@ -1,0 +1,2 @@
+# UDEV rule for ACR122U NFC Reader
+SUBSYSTEM=="usb", ATTR{idVendor}=="072f", ATTR{idProduct}=="2200", GROUP="plugdev", MODE="0666"

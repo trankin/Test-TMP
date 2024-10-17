@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  nfc-testing:
+    image: nfc-testing
+    privileged: true  # Required to access USB devices
+
+
